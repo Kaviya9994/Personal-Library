@@ -1,0 +1,56 @@
+#card{
+    top:20%;
+    left:20%;
+    bottom:20%;
+    right:20%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    transition:0.3s;
+    width:300px;
+    height:300px ;
+    border-radius: 30px;
+    box-shadow: 0 4px 4px 0;
+    background-color: cornflowerblue;
+}
+body{
+text-align: center;
+}
+
+#title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+#book{
+    border-radius:10px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+#author{
+    border-radius: 10px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+#book{
+    padding: 5px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+ul{
+    list-style-type: circle;
+    padding:0;
+}
+li{
+    margin:10px 0;
+}
+.delete{
+    box-shadow: 2px;
+    color:red;
+    cursor:pointer;
+}
+.title{
+
+    color:navy;
+    cursor:pointer;
+}
